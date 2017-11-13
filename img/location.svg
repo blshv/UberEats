@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Restaurant-/-Desktop" transform="translate(-431.000000, -29.000000)" stroke="#262626">
+            <g id="header">
+                <g id="location" transform="translate(420.000000, 17.000000)">
+                    <g transform="translate(12.000000, 12.000000)">
+                        <path d="M6,15.285929 L10.2392259,10.9636033 C12.5869247,8.56988335 12.5869247,4.68495065 10.2392259,2.29123075 C7.89683517,-0.0970769149 4.10316483,-0.0970769149 1.76077415,2.29123075 C-0.586924716,4.68495065 -0.586924716,8.56988335 1.76077415,10.9636033 L6,15.285929 Z" id="Combined-Shape"></path>
+                        <circle id="Oval-3" cx="6" cy="6.5" r="2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
