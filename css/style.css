@@ -47,15 +47,15 @@ header {
 	padding: 14px 24px 12px 36px;
 	border: 1px solid #E0E0E0;
 	border-radius: 2px;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .search button {
 	background: #fff;
-	padding: 2px 8px 0 8px;
+	padding: 8px 12.5px;
 	border: 1px solid #E0E0E0;
 	border-radius: 2px;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .right {
@@ -70,12 +70,13 @@ header {
 	justify-content: center;
 	text-decoration: none;
 	color: #1D1D1D;
-	margin-right: 8px;
+	margin-right: 16px;
 	width: 80px;
 	height: 40px;
 	border: 1px solid #E0E0E0;
 	border-radius: 2px;
 	font-size: 13px;
+	font-weight: 600;
 }
 
 .right button {
@@ -83,6 +84,5 @@ header {
 	background: url(../img/basket.svg) no-repeat center;
 	height: 24px;
 	width: 24px;
-	font-size: 13px;
 }
 
