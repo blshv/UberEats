@@ -1,23 +1,56 @@
+
 body, html {
 	font-family: 'Roboto', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.wrapper {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+.wrapper a {
+	font-size: 13px;
+	color: white;
+}
+
+.wrapper li {
+	padding-bottom: 24px;
+}
+
 h1, h2, h3, h4 {
-	font-family: Roboto;
+	font-family: Roboto, Helvetica Neue, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
+
+	color: #1D1D1D;
+}
+
+.copyright {
+	padding-top: 8px;
+	font-size: 11px;
+	color: white;
+}
+
+h1 {
 	line-height: 34px;
 	font-size: 22px;
 	margin: 0 0 16px 0;
-
-	color: #1D1D1D;
 }
 
 hr {
 	background: #FFFFFF;
 	mix-blend-mode: normal;
 	opacity: 0.4;
-	margin: 32px 0 32px 0;
+	margin: 40px 0 32px 0;
 }
 
 header { 
@@ -33,7 +66,16 @@ header {
 	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
+header .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
 header .logo {
+	display: flex;
+	justify-content: space-between;
 	background: url(../img/logo.svg) no-repeat;
 	width: 121px;
 	height: 13px;
@@ -102,14 +144,6 @@ section h1 {
 	width: 100%;
 }
 
-.wrapper {
-	display: flex;
-	box-sizing: border-box;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-
 .Search {
 	padding: 40px 0;
 }
@@ -136,8 +170,6 @@ section h1 {
 	line-height: 24px;
 	font-size: 16px;
 	margin: 0;
-	
-	color: #1D1D1D;
 }
 
 .card h3 {
@@ -152,8 +184,6 @@ section h1 {
 	line-height: 21px;
 	font-size: 13px;
 	margin: 0 0 20px 0;
-	
-	color: #1D1D1D;
 }
 
 footer {
@@ -161,6 +191,7 @@ footer {
 	height: 500px;
 	background: #262626;
 	margin-top: 80px;
+	padding-bottom: 64px;
 }
 
 .footerLogo {
@@ -171,8 +202,39 @@ footer {
 }
 
 .language {
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
 	width: 228px;
 	height: 40px;
-	background: #3B3B3B;
-	border-radius: 2px;
+	padding-left: 48px;
+	background: url(../img/arrow.svg) no-repeat 96% center;
+	border: none;
+	overflow: hidden;
+}
+
+.black {
+	background-color: #3B3B3B;
+}
+
+.social {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+.up {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	right: 16px;
+	bottom: 24px;
+	border: none;
+	background: url(../img/btn-up.svg) no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+	.citySearch {
+		display: none;
+	}
 }
